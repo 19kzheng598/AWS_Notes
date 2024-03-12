@@ -7,4 +7,10 @@ Q-AWS Well Architected
 A-Ops excellence, sustainability, security, reliability, performance efficiency, cost optimization
 S-
 
-Q-
+Q-What is Amazon S3
+A-A container for objects stored in Amazon S3 (every object stored inside a bucket)
+S-
+
+Q-What is the best description of a AWS Region
+A-A physical region in AWS with multiple AZs which are geographically isolated from each other
+S-https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
