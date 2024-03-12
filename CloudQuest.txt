@@ -1,5 +1,10 @@
 Cloud Quest Notes
+Q = Question
+A = Answer
+S = Source
+
+Q-AWS Well Architected
+A-Ops excellence, sustainability, security, reliability, performance efficiency, cost optimization
+S-
 
 Q-
-A-
-S-
