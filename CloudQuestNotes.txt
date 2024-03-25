@@ -27,4 +27,6 @@ S-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html
 
 Q-Which type of deployment model is used in cloud computing?
 A-On premises, hybrid, cloud
-S-https://aws.amazon.com/what-is-cloud-computing/ 
+S-https://aws.amazon.com/what-is-cloud-computing/
+
+
