@@ -20,7 +20,11 @@ Q-Which format are Amazon S3 bucket policies and IAM policies written in
 A-JSON
 S-https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-iam-policies.html
 
+Q-Which key-value pair can be used to describe an Amazon EC2 instance through
+custom content and metadata
+A-Tags
+S-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html
 
 Q-
-A- 
-S-
+A-
+S- 
