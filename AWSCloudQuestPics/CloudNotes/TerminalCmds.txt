@@ -1,0 +1,14 @@
+Terminal Commands
+
+Q- Provide root privileges to the current session
+A- sudo -i 
+
+Q- Change the app directory 
+A- cd
+
+Q- How to go to the parent directory 
+A- cd .. 
+
+Q- Check if an instance is running
+A- tail -lf name_of_instance.log
+

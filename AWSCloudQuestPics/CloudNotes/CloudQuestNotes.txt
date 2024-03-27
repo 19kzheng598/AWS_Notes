@@ -1,0 +1,80 @@
+Cloud Quest Notes
+Q = Question
+A = Answer
+S = Source
+
+Q-AWS Well Architected
+A-Ops excellence, sustainability, security, reliability, performance efficiency, cost optimization
+
+Q-What is Amazon S3
+A-A container for objects stored in Amazon S3 (every object stored inside a bucket)
+s- https://aws.amazon.com/s3/faqs/
+
+
+Q-What is the best description of a AWS Region
+A-A physical region in AWS with multiple AZs which are geographically isolated from each other
+S-https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
+
+
+Q-Which format are Amazon S3 bucket policies and IAM policies written in 
+A-JSON
+S-https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-iam-policies.html
+
+Q-Which key-value pair can be used to describe an Amazon EC2 instance through
+custom content and metadata
+A-Tags
+S-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html
+
+Q-Which type of deployment model is used in cloud computing?
+A-On premises, hybrid, cloud
+S-https://aws.amazon.com/what-is-cloud-computing/
+
+Q- Which resource acts as a virtual firewall that 
+controls the traffic for one or more instances
+A-Security Groups
+S-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html
+
+
+Q-What if I can't change my instance type
+A-Stop all instances running make sure EBS is stopped
+
+
+Q-When starting up an instance how much does AWS charge
+A- Charges by one minute for starting up then after it charges by seconds
+
+
+Q- S3 consistency model
+A- Amazon S3 provides strong read after write consistency for
+PUT and DELETE requests of objects in Amazon S3 bucket for
+ALL AWS regions
+S- https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#ConsistencyModel
+
+
+Q-Which AWS service provides object storage and is built
+to store and retrieve any amount of data from anywhere on the internet
+A-Amazon S3 is object storage built to store and retrieve any amount of data from anywhere. 
+S3 is a simple storage service that offers industry leading durability, availability, performance, security, 
+and virtually unlimited scalability at very low costs.
+S-https://aws.amazon.com/s3/faqs/
+
+
+Q-EC2 instance connect can help users connect to an instance.
+What are the two components of the connection
+A- Linux and SSH
+S-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connect-linux-inst-eic.html
+
+
+Q- What is AMI (Amazon Machine Image)
+A- A template that contains a software
+configuration for example
+and operating system, app server, and applications.
+From an AMI you launch an instance which is a copy of the
+AMI running as a virtual server in the cloud
+
+
+Q- What is the maximum number of objects that a S3 bucket can store
+A- There is no limit
+S- https://docs.aws.amazon.com/AmazonS3/latest/userguide/BucketRestrictions.html
+
+
+Q-
