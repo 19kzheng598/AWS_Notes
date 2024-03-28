@@ -77,4 +77,19 @@ A- There is no limit
 S- https://docs.aws.amazon.com/AmazonS3/latest/userguide/BucketRestrictions.html
 
 
+Q-EC2 instance connect requires a user-created
+and downloaded SSH Key
+A-False. While this is true there are many ways to connect to a EC2 instance 
+For example through the AWS console or SSH Client through
+the same VPC or thruogh a VPON connection, transit gateway
+or AWS direct connect. Remember that Instance connect
+does not work with IPv6.
+S-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-connect-methods.html
+
+
+Q-Amazon S3 bucket policy sizes have a 20 KB Limit
+A-True 
+S-https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-iam-policies.html
+
+
 Q-

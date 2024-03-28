@@ -1,0 +1,6 @@
+Port numbers
+
+MySQL and Aurora - 3306 
+
+HTTP - 80
+
