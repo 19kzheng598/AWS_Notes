@@ -92,4 +92,47 @@ A-True
 S-https://docs.aws.amazon.com/AmazonS3/latest/userguide/using-iam-policies.html
 
 
+Q- Which type of scaling is used when the number of EC2 instances
+is increased behind a load balancer
+A-Horizontal scaling
+S-https://wa.aws.amazon.com/wellarchitected/2020-07-02T19-33-23/wat.concept.horizontal-scaling.en.html
+
+
+Q-What can be changed to scale an Amazon EC2 instance to the demands of a workload
+A-Type of instance like t2.micro m3.large etc etc
+S-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html
+
+
+Q- Statements that are true about buckets in S3
+A- A bucket is a container for objects stored in Amazon S3
+Amazon S3 creates buckets in an AWS that the user specifies
+S-https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html#block-public-access-intro
+
+
+Q-How can an Amazon S3 bucket owner grant public
+access to a bucket with website hosting?
+A- Only the bucket owner associates a policy with a bucket
+S-https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-policies.html
+
+
+Q- What is true about default VPCs
+A- When you start using Amazon VPC, you have a default VPC in each AWS Region.
+Default VPCs can be modified
+Default VPCs comes with a public subnet in each Availability Zone, an internet gateway, and settings to enable DNS resolution.
+S-https://docs.aws.amazon.com/vpc/latest/userguide/default-vpc.html#default-vpc-components
+
+
+Q- EC2 instance types
+A-https://aws.amazon.com/ec2/instance-types/
+
+
+Q-Which statement accurately describes cloud computing
+A-IT resources are delivered over the internet on demand with pay as you go pricing
+S-https://aws.amazon.com/what-is-cloud-computing/
+
+Q-Which Amazon S3 feature automatically changes data storage tiers based on user specs
+A-Lifecycle configuration
+S-https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html
+
+
 Q-
