@@ -135,4 +135,12 @@ A-Lifecycle configuration
 S-https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lifecycle-mgmt.html
 
 
+Q-The default view for the AWS Management Console displays all resources
+in all regions 
+A-False
+S-https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/select-region.html
+
+
 Q-
+A-
+S-
