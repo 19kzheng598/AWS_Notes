@@ -141,6 +141,6 @@ A-False
 S-https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/select-region.html
 
 
-Q-
-A-
+Q-hi
+A-S
 S-
