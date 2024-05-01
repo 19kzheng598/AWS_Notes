@@ -141,6 +141,12 @@ A-False
 S-https://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/select-region.html
 
 
-Q-hi
-A-S
+Q- An Amazon EBS backed EC2 isntance must be in a specific state to change
+its instance type which one
+A- Must be stopped before you can change instance types
+S-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html
+
+
+Q-
+A-
 S-
