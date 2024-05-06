@@ -147,6 +147,13 @@ A- Must be stopped before you can change instance types
 S-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html
 
 
+Q-What is the requester and the acceptor in amazon VPC
+A-In Amazon Virtual Private Cloud (VPC), the terms "requester" and "acceptor" are commonly used when referring to the process of peering connections between VPCs.
+Requester: The requester VPC is the VPC that initiates the peering connection request. When a requester VPC sends a peering connection request to another VPC, it is essentially asking for permission to establish a connection between the two VPCs. The requester VPC sends the request to the owner of the acceptor VPC.
+Acceptor: The acceptor VPC is the VPC that receives the peering connection request from the requester VPC. The owner of the acceptor VPC must approve the peering connection request before the connection can be established. Once the acceptor VPC owner approves the request, the peering connection is established, and communication can occur between the two VPCs.
+In summary, the requester VPC initiates the peering connection request, while the acceptor VPC receives and must approve the request for the connection to be established. This terminology is commonly used in the context of setting up VPC peering connections in AWS.
+
+
 Q-
 A-
 S-

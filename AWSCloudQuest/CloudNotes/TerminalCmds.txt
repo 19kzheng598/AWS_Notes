@@ -12,3 +12,8 @@ A- cd ..
 Q- Check if an instance is running
 A- tail -lf name_of_instance.log
 
+Q- How to exit ping 
+A- Press ctrl C
+
+Q- 
+A- 
