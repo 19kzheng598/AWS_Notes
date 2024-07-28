@@ -199,6 +199,6 @@ A-From the AWS price list API
 S-https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html
 
 
-Q-
-A-
+Q- What can be used to restrict access to specific Amazon EC2 instances
+A- Security Groups & Private Subnets
 S-
