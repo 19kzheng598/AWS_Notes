@@ -147,58 +147,11 @@ A- Must be stopped before you can change instance types
 S-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-resize.html
 
 
-Q-What is the requester and the acceptor in amazon VPC
-A-In Amazon Virtual Private Cloud (VPC), the terms "requester" and "acceptor" are commonly used when referring to the process of peering connections between VPCs.
-Requester: The requester VPC is the VPC that initiates the peering connection request. When a requester VPC sends a peering connection request to another VPC, it is essentially asking for permission to establish a connection between the two VPCs. The requester VPC sends the request to the owner of the acceptor VPC.
-Acceptor: The acceptor VPC is the VPC that receives the peering connection request from the requester VPC. The owner of the acceptor VPC must approve the peering connection request before the connection can be established. Once the acceptor VPC owner approves the request, the peering connection is established, and communication can occur between the two VPCs.
-In summary, the requester VPC initiates the peering connection request, while the acceptor VPC receives and must approve the request for the connection to be established. This terminology is commonly used in the context of setting up VPC peering connections in AWS.
+Q- A NAT gateway is used to connect a private subnet to the internet
+A- True
+S-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html
 
 
-Q- Amazon RDS stores DV instance for a period of 7 days
-A- True Amazon RDS retains backups of a DB Instance for a limited, user-specified period of time called the retention period, which by default is 7 days but can be set to up to 35 days. You can initiate a point-in-time restore and specify any second during your retention period, up to the Latest Restorable Time. You can use the DescribeDBInstances API to return the latest restorable time for you DB instance, which is typically within the last five minutes. 
-S- https://aws.amazon.com/rds/faqs/
-
-Q-Types of Amazon Database Services
-A- Amazon RDS (Relational Database Service):
-Fully managed relational database service supporting popular engines such as MySQL, PostgreSQL, MariaDB, Oracle Database, SQL Server, and Amazon Aurora.
-
-Amazon DynamoDB:
-Fully managed NoSQL database service offering fast and predictable performance at any scale, with support for both document and key-value data models.
-
-Amazon Aurora:
-MySQL and PostgreSQL-compatible relational database engine built for the cloud, providing high performance, scalability, and availability.
-
-Amazon Redshift:
-Fully managed data warehouse service designed for analytics workloads, offering fast query performance and scalable storage for analyzing large datasets.
-
-Amazon Neptune:
-Fully managed graph database service supporting both property graph and RDF graph models, ideal for building and running applications that work with highly connected datasets.
-
-Amazon DocumentDB:
-Fully managed document database service compatible with MongoDB, providing scalability, performance, and reliability for MongoDB workloads.
-
-Amazon ElastiCache:
-Fully managed in-memory caching service supporting Redis and Memcached, designed to improve the performance and scalability of applications by caching frequently accessed data.
-
-Amazon Keyspaces (for Apache Cassandra):
-Fully managed, serverless Apache Cassandra-compatible database service, offering scalability, durability, and built-in security for Cassandra workloads.
-
-Amazon Timestream:
-Fully managed time-series database service designed to store and analyze time-series data at scale, ideal for IoT, DevOps, and industrial telemetry applications.
-
-Amazon Quantum Ledger Database (QLDB):
-Fully managed ledger database service offering a transparent, immutable, and cryptographically verifiable transaction log, suitable for applications requiring a verifiable and auditable history of changes.
-
-Q- What can be configured when creating a new Amazon EC2 instance
-A- Instance type and Security Group 
-S- https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html#ec2-launch-instance
-
-
-Q-Where does AWS cost estimator gets its pricing from
-A-From the AWS price list API
-S-https://docs.aws.amazon.com/pricing-calculator/latest/userguide/what-is-pricing-calculator.html
-
-
-Q- What can be used to restrict access to specific Amazon EC2 instances
-A- Security Groups & Private Subnets
-S-
+Q- How many AZs are in a region.
+A- 3 at minimum 
+S-https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
