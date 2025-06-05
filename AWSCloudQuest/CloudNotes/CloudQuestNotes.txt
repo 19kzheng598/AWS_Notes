@@ -155,3 +155,8 @@ S-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html
 Q- How many AZs are in a region.
 A- 3 at minimum 
 S-https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
+
+
+Q- 
+A-
+S-
